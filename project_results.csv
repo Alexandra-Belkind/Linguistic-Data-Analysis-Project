@@ -7,6 +7,6 @@ synt_function,388.89,0
 genre,409,both values - '.'
 stepwise,233.59,kommen & 16th & 17th century - '***'; lassen & Thueringisch - '**'; Mittelbayrisch & Ripuarisch - '*'; geben - '.'
 multiple factors (all*),1970,all values: NA or '***'
-multiple factors (* for intersecting ones, others +),235.61, kommen & lassen  - '***'; geben - '*'
+multiple factors (* for intersecting ones; others +),235.61, kommen & lassen  - '***'; geben - '*'
 multiple factors (all +),234.61,kommen & lassen & 16th & 17th century - '***'; Thueringisch - '**'; Mittelbayrisch - '*'; geben & Rupuarisch - '.'
 three significant variables (+),237.18,kommen & 17th century - '***'; lassen & 16th century, Thueringisch - '**'; Mittelbayrisch - '*'
