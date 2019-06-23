@@ -1,0 +1,462 @@
+verb;form;century;dialect_area;dialect;synt_function;genre;textart;text_nr
+kommen;no;xiv;oberdt;Mittelbayrisch;pf;written;kirchlich-teologischer.fachtext;111
+kommen;no;xiv;oberdt;Mittelbayrisch;konj;written;kirchlich-teologischer.fachtext;111
+kommen;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xv;oberdt;Mittelbayrisch;adv;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+kommen;no;xvi;oberdt;Mittelbayrisch;adj;written;Chronikalischer.und.Berichtstext;115
+kommen;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+kommen;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+kommen;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+kommen;no;xvii;oberdt;Mittelbayrisch;adv;oral;Erbaulicher.Text;117
+kommen;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+kommen;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+kommen;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+kommen;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+kommen;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+kommen;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+kommen;no;xv;oberdt;Schwaebisch;adv;written;schoene.Literatur;123
+kommen;no;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+kommen;no;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+kommen;no;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+kommen;no;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+kommen;no;xvi;oberdt;Schwaebisch;konj;oral;Rechts.und.Geschaeftstext;125
+kommen;no;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;no;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;no;xvii;oberdt;Schwaebisch;konj;written;Chronikalischer.und.Berichtstext;127
+kommen;no;xiv;ostmdt;Obersaechsisch;konj;oral;Erbaulicher.Text;141
+kommen;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+kommen;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+kommen;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+kommen;no;xvii;ostmdt;Obersaechsisch;konj;written;schoene.Literatur;147
+kommen;no;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+kommen;no;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+kommen;no;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+kommen;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+kommen;no;xiv;westmdt;Ripuarisch (Koeln);konj;written;Chronikalischer.und.Berichtstext;151
+kommen;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+kommen;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+kommen;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+kommen;no;xv;westmdt;Ripuarisch (Koeln);konj;written;Chronikalischer.und.Berichtstext;153
+kommen;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+kommen;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+kommen;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+kommen;no;xvi;westmdt;Ripuarisch (Koeln);adj;oral;Erbaulicher.Text;155
+kommen;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+kommen;no;xvi;westmdt;Ripuarisch (Koeln);konj;oral;Erbaulicher.Text;155
+kommen;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+kommen;no;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+kommen;no;xv;westmdt;Hessesch;pf;oral;Rechts.und.Geschaeftstext;243
+kommen;no;xv;westmdt;Hessesch;konj;oral;Rechts.und.Geschaeftstext;243
+kommen;no;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+kommen;no;xvi;westmdt;Hessesch;konj;written;Chronikalischer.und.Berichtstext;245
+kommen;no;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+kommen;no;xvi;westmdt;Hessesch;konj;written;Chronikalischer.und.Berichtstext;245
+kommen;no;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+kommen;no;xvii;westmdt;Hessesch;adv;written;Chronikalischer.und.Berichtstext;247
+kommen;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+kommen;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+kommen;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+kommen;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+kommen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+kommen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+kommen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+kommen;no;xv;ostmdt;Thueringisch;konj;written;Chronikalischer.und.Berichtstext;253
+kommen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+kommen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+kommen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+kommen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+kommen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+kommen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+kommen;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+kommen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+kommen;yes;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+bringen;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+bringen;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+bringen;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+bringen;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+bringen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+bringen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+bringen;yes;xvi;oberdt;Mittelbayrisch;vor_pass;written;Chronikalischer.und.Berichtstext;115
+bringen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+bringen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+bringen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+bringen;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+bringen;no;xiv;oberdt;Schwaebisch;konj;oral;Erbaulicher.Text;121
+bringen;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+bringen;no;xv;oberdt;Schwaebisch;konj;written;schoene.Literatur;123
+bringen;no;xv;oberdt;Schwaebisch;konj;written;schoene.Literatur;123
+bringen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+bringen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+bringen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+bringen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+bringen;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+bringen;yes;xiv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;141
+bringen;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+bringen;yes;xvi;ostmdt;Obersaechsisch;vor_pass;written;kirchlich-teologischer.fachtext;145
+bringen;yes;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+bringen;yes;xvii;ostmdt;Obersaechsisch;zu_pass;written;schoene.Literatur;147
+bringen;yes;xvii;ostmdt;Obersaechsisch;vor_pass;written;schoene.Literatur;147
+bringen;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+bringen;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+bringen;yes;xv;westmdt;Ripuarisch (Koeln);vor_pass;written;Chronikalischer.und.Berichtstext;153
+bringen;yes;xv;westmdt;Ripuarisch (Koeln);zu_pass;written;Chronikalischer.und.Berichtstext;153
+bringen;yes;xv;westmdt;Ripuarisch (Koeln);vor_pass;written;Chronikalischer.und.Berichtstext;153
+bringen;no;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+bringen;yes;xvi;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;no;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;no;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvi;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;245
+bringen;yes;xvii;westmdt;Hessesch;zu_pass;written;Chronikalischer.und.Berichtstext;247
+bringen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+bringen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+bringen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+bringen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+bringen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+bringen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+bringen;no;xv;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;253
+bringen;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+bringen;no;xv;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;253
+bringen;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+bringen;yes;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+bringen;yes;xvii;ostmdt;Thueringisch;vor_pass;oral;Erbaulicher.Text;257
+bringen;no;xvii;ostmdt;Thueringisch;vor_pass;oral;Erbaulicher.Text;257
+bringen;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+finden;no;xiv;oberdt;Mittelbayrisch;vor_pass;written;kirchlich-teologischer.fachtext;111
+finden;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+finden;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+finden;yes;xvi;oberdt;Mittelbayrisch;vor_pass;written;Chronikalischer.und.Berichtstext;115
+finden;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+finden;yes;xvii;oberdt;Mittelbayrisch;zu_pass;oral;Erbaulicher.Text;117
+finden;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+finden;yes;xvii;oberdt;Mittelbayrisch;vor_pass;oral;Erbaulicher.Text;117
+finden;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+finden;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+finden;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+finden;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+finden;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+finden;no;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+finden;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+finden;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+finden;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+finden;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+finden;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+finden;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+finden;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+finden;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+finden;no;xiv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;141
+finden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+finden;yes;xv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;143
+finden;yes;xv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;143
+finden;yes;xv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;143
+finden;no;xv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;143
+finden;yes;xvii;ostmdt;Obersaechsisch;vor_pass;written;schoene.Literatur;147
+finden;yes;xv;westmdt;Ripuarisch (Koeln);vor_pass;written;Chronikalischer.und.Berichtstext;153
+finden;no;xv;westmdt;Ripuarisch (Koeln);zu_pass;written;Chronikalischer.und.Berichtstext;153
+finden;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+finden;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+finden;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+finden;no;xv;westmdt;Ripuarisch (Koeln);zu_pass;written;Chronikalischer.und.Berichtstext;153
+finden;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+finden;yes;xvii;westmdt;Ripuarisch (Koeln);vor_pass;written;kirchlich-teologischer.fachtext;157
+finden;yes;xvii;westmdt;Ripuarisch (Koeln);vor_pass;written;kirchlich-teologischer.fachtext;157
+finden;yes;xvii;westmdt;Ripuarisch (Koeln);vor_pass;written;kirchlich-teologischer.fachtext;157
+finden;yes;xvii;westmdt;Ripuarisch (Koeln);vor_pass;written;kirchlich-teologischer.fachtext;157
+finden;yes;xvii;westmdt;Ripuarisch (Koeln);zu_pass;written;kirchlich-teologischer.fachtext;157
+finden;no;xiv;westmdt;Hessesch;vor_pass;written;kirchlich-teologischer.fachtext;241
+finden;no;xiv;westmdt;Hessesch;adj;written;kirchlich-teologischer.fachtext;241
+finden;no;xv;westmdt;Hessesch;vor_pass;oral;Rechts.und.Geschaeftstext;243
+finden;no;xv;westmdt;Hessesch;vor_pass;oral;Rechts.und.Geschaeftstext;243
+finden;yes;xvi;westmdt;Hessesch;konj;written;Chronikalischer.und.Berichtstext;245
+finden;yes;xvi;westmdt;Hessesch;konj;written;Chronikalischer.und.Berichtstext;245
+finden;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+finden;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+finden;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+finden;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+finden;no;xiv;ostmdt;Thueringisch;zu_pass;oral;Bibel.Psalterium;251
+finden;no;xiv;ostmdt;Thueringisch;vor_pass;oral;Bibel.Psalterium;251
+finden;no;xiv;ostmdt;Thueringisch;vor_pass;oral;Bibel.Psalterium;251
+finden;no;xv;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;253
+finden;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+finden;no;xv;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;253
+finden;no;xv;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;253
+finden;yes;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+finden;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+finden;yes;xvii;ostmdt;Thueringisch;konj;oral;Erbaulicher.Text;257
+treffen;yes;xvii;oberdt;Schwaebisch;vor_pass;written;Chronikalischer.und.Berichtstext;127
+treffen;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+treffen;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+treffen;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+treffen;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+lassen;no;xiv;oberdt;Mittelbayrisch;vor_pass;written;kirchlich-teologischer.fachtext;111
+lassen;yes;xiv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;141
+lassen;yes;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+lassen;yes;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+lassen;yes;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+lassen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+lassen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+lassen;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+lassen;yes;xv;oberdt;Schwaebisch;vor_pass;written;schoene.Literatur;123
+lassen;yes;xv;oberdt;Schwaebisch;zu_pass;written;schoene.Literatur;123
+lassen;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+lassen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+lassen;yes;xvii;oberdt;Schwaebisch;adj;written;Chronikalischer.und.Berichtstext;127
+lassen;yes;xvi;westmdt;Ripuarisch (Koeln);konj;oral;Erbaulicher.Text;155
+lassen;yes;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+lassen;yes;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+lassen;yes;xvii;westmdt;Ripuarisch (Koeln);zu_pass;written;kirchlich-teologischer.fachtext;157
+lassen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+lassen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+lassen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+lassen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+lassen;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+lassen;yes;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+lassen;yes;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+lassen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+lassen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+lassen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+lassen;yes;xvii;ostmdt;Thueringisch;konj;oral;Erbaulicher.Text;257
+lassen;yes;xvii;ostmdt;Thueringisch;vor_pass;oral;Erbaulicher.Text;257
+geben;yes;xiv;oberdt;Mittelbayrisch;vor_pass;written;kirchlich-teologischer.fachtext;111
+geben;yes;xiv;oberdt;Mittelbayrisch;zu_pass;written;kirchlich-teologischer.fachtext;111
+geben;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+geben;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+geben;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+geben;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+geben;yes;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+geben;yes;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+geben;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+geben;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+geben;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+geben;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+geben;yes;xvi;oberdt;Mittelbayrisch;vor_pass;written;Chronikalischer.und.Berichtstext;115
+geben;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+geben;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+geben;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+geben;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+geben;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+geben;yes;xv;oberdt;Schwaebisch;vor_pass;written;schoene.Literatur;123
+geben;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+geben;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+geben;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+geben;yes;xv;oberdt;Schwaebisch;vor_pass;written;schoene.Literatur;123
+geben;yes;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+geben;yes;xvi;oberdt;Schwaebisch;adj;oral;Rechts.und.Geschaeftstext;125
+geben;yes;xvii;oberdt;Schwaebisch;vor_pass;written;Chronikalischer.und.Berichtstext;127
+geben;yes;xvii;oberdt;Schwaebisch;zu_pass;written;Chronikalischer.und.Berichtstext;127
+geben;yes;xvii;oberdt;Schwaebisch;vor_pass;written;Chronikalischer.und.Berichtstext;127
+geben;no;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+geben;no;xiv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;141
+geben;yes;xiv;ostmdt;Obersaechsisch;zu_pass;oral;Erbaulicher.Text;141
+geben;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+geben;yes;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+geben;yes;xiv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;141
+geben;yes;xv;ostmdt;Obersaechsisch;zu_pass;oral;Erbaulicher.Text;143
+geben;yes;xv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;143
+geben;yes;xv;ostmdt;Obersaechsisch;vor_pass;oral;Erbaulicher.Text;143
+geben;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+geben;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+geben;yes;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+geben;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+geben;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+geben;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+geben;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+geben;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+geben;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+geben;yes;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+geben;yes;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+geben;yes;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+geben;yes;xvii;westmdt;Ripuarisch (Koeln);pf;written;kirchlich-teologischer.fachtext;157
+geben;yes;xvii;westmdt;Ripuarisch (Koeln);zu_pass;written;kirchlich-teologischer.fachtext;157
+geben;yes;xiv;westmdt;Hessesch;vor_pass;written;kirchlich-teologischer.fachtext;241
+geben;yes;xiv;westmdt;Hessesch;adv;written;kirchlich-teologischer.fachtext;241
+geben;yes;xiv;westmdt;Hessesch;vor_pass;written;kirchlich-teologischer.fachtext;241
+geben;yes;xiv;westmdt;Hessesch;pf;written;kirchlich-teologischer.fachtext;241
+geben;no;xv;westmdt;Hessesch;adv;oral;Rechts.und.Geschaeftstext;243
+geben;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+geben;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+geben;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+geben;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+geben;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+geben;yes;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+geben;yes;xiv;ostmdt;Thueringisch;pf;oral;Bibel.Psalterium;251
+geben;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+geben;yes;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+geben;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+geben;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+geben;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+geben;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+nehmen;yes;xiv;oberdt;Mittelbayrisch;pf;written;kirchlich-teologischer.fachtext;111
+nehmen;yes;xiv;oberdt;Mittelbayrisch;pf;written;kirchlich-teologischer.fachtext;111
+nehmen;yes;xiv;oberdt;Mittelbayrisch;vor_pass;written;kirchlich-teologischer.fachtext;111
+nehmen;yes;xiv;oberdt;Mittelbayrisch;pf;written;kirchlich-teologischer.fachtext;111
+nehmen;yes;xiv;oberdt;Mittelbayrisch;zu_pass;written;kirchlich-teologischer.fachtext;111
+nehmen;yes;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+nehmen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+nehmen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+nehmen;yes;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+nehmen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+nehmen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+nehmen;yes;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+nehmen;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+nehmen;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+nehmen;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+nehmen;yes;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+nehmen;yes;xv;oberdt;Schwaebisch;vor_pass;written;schoene.Literatur;123
+nehmen;yes;xv;oberdt;Schwaebisch;zu_pass;written;schoene.Literatur;123
+nehmen;yes;xv;oberdt;Schwaebisch;vor_pass;written;schoene.Literatur;123
+nehmen;yes;xv;oberdt;Schwaebisch;pf;written;schoene.Literatur;123
+nehmen;yes;xv;oberdt;Schwaebisch;konj;written;schoene.Literatur;123
+nehmen;yes;xvi;oberdt;Schwaebisch;vor_pass;oral;Rechts.und.Geschaeftstext;125
+nehmen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+nehmen;yes;xvii;oberdt;Schwaebisch;pf;written;Chronikalischer.und.Berichtstext;127
+nehmen;yes;xvii;oberdt;Schwaebisch;zu_pass;written;Chronikalischer.und.Berichtstext;127
+nehmen;yes;xvii;oberdt;Schwaebisch;vor_pass;written;Chronikalischer.und.Berichtstext;127
+nehmen;yes;xv;ostmdt;Obersaechsisch;adv;oral;Erbaulicher.Text;143
+nehmen;yes;xvi;ostmdt;Obersaechsisch;zu_pass;written;kirchlich-teologischer.fachtext;145
+nehmen;yes;xvi;ostmdt;Obersaechsisch;zu_pass;written;kirchlich-teologischer.fachtext;145
+nehmen;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+nehmen;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+nehmen;yes;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+nehmen;yes;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+nehmen;yes;xvii;ostmdt;Obersaechsisch;vor_pass;written;schoene.Literatur;147
+nehmen;yes;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+nehmen;yes;xiv;westmdt;Ripuarisch (Koeln);vor_pass;written;Chronikalischer.und.Berichtstext;151
+nehmen;yes;xiv;westmdt;Ripuarisch (Koeln);zu_pass;written;Chronikalischer.und.Berichtstext;151
+nehmen;yes;xiv;westmdt;Ripuarisch (Koeln);vor_pass;written;Chronikalischer.und.Berichtstext;151
+nehmen;yes;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+nehmen;yes;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+nehmen;yes;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+nehmen;yes;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+nehmen;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+nehmen;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+nehmen;yes;xvi;westmdt;Ripuarisch (Koeln);vor_pass;oral;Erbaulicher.Text;155
+nehmen;yes;xvi;westmdt;Ripuarisch (Koeln);adv;oral;Erbaulicher.Text;155
+nehmen;yes;xiv;westmdt;Hessesch;vor_pass;written;kirchlich-teologischer.fachtext;241
+nehmen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+nehmen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+nehmen;yes;xvi;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;245
+nehmen;yes;xvii;westmdt;Hessesch;adj;written;Chronikalischer.und.Berichtstext;247
+nehmen;yes;xvii;westmdt;Hessesch;vor_pass;written;Chronikalischer.und.Berichtstext;247
+nehmen;yes;xv;ostmdt;Thueringisch;zu_pass;written;Chronikalischer.und.Berichtstext;253
+nehmen;yes;xvi;ostmdt;Thueringisch;vor_pass;written;Chronikalischer.und.Berichtstext;255
+nehmen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+nehmen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+nehmen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+nehmen;yes;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+werden;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
+werden;no;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+werden;no;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+werden;no;xv;oberdt;Mittelbayrisch;konj;written;Chronikalischer.und.Berichtstext;113
+werden;no;xv;oberdt;Mittelbayrisch;aux;written;Chronikalischer.und.Berichtstext;113
+werden;no;xv;oberdt;Mittelbayrisch;aux;written;Chronikalischer.und.Berichtstext;113
+werden;no;xvi;oberdt;Mittelbayrisch;aux;written;Chronikalischer.und.Berichtstext;115
+werden;no;xvi;oberdt;Mittelbayrisch;aux;written;Chronikalischer.und.Berichtstext;115
+werden;no;xvi;oberdt;Mittelbayrisch;aux;written;Chronikalischer.und.Berichtstext;115
+werden;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+werden;no;xvi;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;115
+werden;no;xvii;oberdt;Mittelbayrisch;aux;oral;Erbaulicher.Text;117
+werden;no;xvii;oberdt;Mittelbayrisch;aux;oral;Erbaulicher.Text;117
+werden;no;xvii;oberdt;Mittelbayrisch;aux;oral;Erbaulicher.Text;117
+werden;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+werden;no;xvii;oberdt;Mittelbayrisch;aux;oral;Erbaulicher.Text;117
+werden;no;xvii;oberdt;Mittelbayrisch;pf;oral;Erbaulicher.Text;117
+werden;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+werden;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+werden;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+werden;no;xiv;oberdt;Schwaebisch;konj;oral;Erbaulicher.Text;121
+werden;no;xiv;oberdt;Schwaebisch;pf;oral;Erbaulicher.Text;121
+werden;no;xv;oberdt;Schwaebisch;aux;written;schoene.Literatur;123
+werden;no;xv;oberdt;Schwaebisch;aux;written;schoene.Literatur;123
+werden;no;xv;oberdt;Schwaebisch;aux;written;schoene.Literatur;123
+werden;no;xv;oberdt;Schwaebisch;aux;written;schoene.Literatur;123
+werden;no;xvi;oberdt;Schwaebisch;aux;oral;Rechts.und.Geschaeftstext;125
+werden;no;xvi;oberdt;Schwaebisch;aux;oral;Rechts.und.Geschaeftstext;125
+werden;no;xvi;oberdt;Schwaebisch;aux;oral;Rechts.und.Geschaeftstext;125
+werden;no;xvi;oberdt;Schwaebisch;pf;oral;Rechts.und.Geschaeftstext;125
+werden;no;xvi;oberdt;Schwaebisch;aux;oral;Rechts.und.Geschaeftstext;125
+werden;no;xvii;oberdt;Schwaebisch;adj;written;Chronikalischer.und.Berichtstext;127
+werden;no;xvii;oberdt;Schwaebisch;aux;written;Chronikalischer.und.Berichtstext;127
+werden;no;xvii;oberdt;Schwaebisch;aux;written;Chronikalischer.und.Berichtstext;127
+werden;no;xvii;oberdt;Schwaebisch;aux;written;Chronikalischer.und.Berichtstext;127
+werden;no;xvii;oberdt;Schwaebisch;aux;written;Chronikalischer.und.Berichtstext;127
+werden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+werden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+werden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+werden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+werden;no;xiv;ostmdt;Obersaechsisch;pf;oral;Erbaulicher.Text;141
+werden;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+werden;no;xvi;ostmdt;Obersaechsisch;aux;written;kirchlich-teologischer.fachtext;145
+werden;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+werden;no;xvi;ostmdt;Obersaechsisch;pf;written;kirchlich-teologischer.fachtext;145
+werden;no;xvi;ostmdt;Obersaechsisch;aux;written;kirchlich-teologischer.fachtext;145
+werden;no;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+werden;no;xvii;ostmdt;Obersaechsisch;aux;written;schoene.Literatur;147
+werden;no;xvii;ostmdt;Obersaechsisch;aux;written;schoene.Literatur;147
+werden;no;xvii;ostmdt;Obersaechsisch;aux;written;schoene.Literatur;147
+werden;no;xvii;ostmdt;Obersaechsisch;pf;written;schoene.Literatur;147
+werden;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+werden;no;xiv;westmdt;Ripuarisch (Koeln);aux;written;Chronikalischer.und.Berichtstext;151
+werden;no;xiv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;151
+werden;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+werden;no;xv;westmdt;Ripuarisch (Koeln);aux;written;Chronikalischer.und.Berichtstext;153
+werden;no;xv;westmdt;Ripuarisch (Koeln);aux;written;Chronikalischer.und.Berichtstext;153
+werden;no;xv;westmdt;Ripuarisch (Koeln);pf;written;Chronikalischer.und.Berichtstext;153
+werden;no;xv;westmdt;Ripuarisch (Koeln);konj;written;Chronikalischer.und.Berichtstext;153
+werden;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+werden;no;xvi;westmdt;Ripuarisch (Koeln);aux;oral;Erbaulicher.Text;155
+werden;no;xvi;westmdt;Ripuarisch (Koeln);aux;oral;Erbaulicher.Text;155
+werden;no;xvi;westmdt;Ripuarisch (Koeln);pf;oral;Erbaulicher.Text;155
+werden;no;xvi;westmdt;Ripuarisch (Koeln);aux;oral;Erbaulicher.Text;155
+werden;no;xvii;westmdt;Ripuarisch (Koeln);aux;written;kirchlich-teologischer.fachtext;157
+werden;no;xvii;westmdt;Ripuarisch (Koeln);aux;written;kirchlich-teologischer.fachtext;157
+werden;no;xvii;westmdt;Ripuarisch (Koeln);aux;written;kirchlich-teologischer.fachtext;157
+werden;no;xvii;westmdt;Ripuarisch (Koeln);aux;written;kirchlich-teologischer.fachtext;157
+werden;no;xvii;westmdt;Ripuarisch (Koeln);aux;written;kirchlich-teologischer.fachtext;157
+werden;no;xiv;westmdt;Hessesch;pf;written;kirchlich-teologischer.fachtext;241
+werden;no;xiv;westmdt;Hessesch;pf;written;kirchlich-teologischer.fachtext;241
+werden;no;xiv;westmdt;Hessesch;pf;written;kirchlich-teologischer.fachtext;241
+werden;no;xiv;westmdt;Hessesch;aux;written;kirchlich-teologischer.fachtext;241
+werden;no;xiv;westmdt;Hessesch;pf;written;kirchlich-teologischer.fachtext;241
+werden;no;xv;westmdt;Hessesch;pf;oral;Rechts.und.Geschaeftstext;243
+werden;no;xv;westmdt;Hessesch;aux;oral;Rechts.und.Geschaeftstext;243
+werden;no;xv;westmdt;Hessesch;konj;oral;Rechts.und.Geschaeftstext;243
+werden;no;xvi;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;245
+werden;no;xvi;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;245
+werden;no;xvi;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;245
+werden;no;xvi;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;245
+werden;no;xvi;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;245
+werden;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+werden;no;xvii;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;247
+werden;no;xvii;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;247
+werden;no;xvii;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;247
+werden;no;xvii;westmdt;Hessesch;aux;written;Chronikalischer.und.Berichtstext;247
+werden;no;xvii;westmdt;Hessesch;pf;written;Chronikalischer.und.Berichtstext;247
+werden;no;xiv;ostmdt;Thueringisch;pf;oral;Bibel.Psalterium;251
+werden;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+werden;no;xv;ostmdt;Thueringisch;konj;written;Chronikalischer.und.Berichtstext;253
+werden;no;xv;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;253
+werden;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+werden;no;xvi;ostmdt;Thueringisch;aux;written;Chronikalischer.und.Berichtstext;255
+werden;no;xvi;ostmdt;Thueringisch;pf;written;Chronikalischer.und.Berichtstext;255
+werden;no;xvi;ostmdt;Thueringisch;aux;written;Chronikalischer.und.Berichtstext;255
+werden;no;xvi;ostmdt;Thueringisch;aux;written;Chronikalischer.und.Berichtstext;255
+werden;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+werden;no;xvii;ostmdt;Thueringisch;aux;oral;Erbaulicher.Text;257
+werden;no;xvii;ostmdt;Thueringisch;aux;oral;Erbaulicher.Text;257
+werden;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+werden;no;xvii;ostmdt;Thueringisch;pf;oral;Erbaulicher.Text;257
+werden;no;xvii;ostmdt;Thueringisch;aux;oral;Erbaulicher.Text;257
