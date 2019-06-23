@@ -1,4 +1,4 @@
-verb,form,century,dialect_area,dialect,synt_function,genre,textart,text_nr
+verb;form;century;dialect_area;dialect;synt_function;genre;textart;text_nr
 kommen;no;xiv;oberdt;Mittelbayrisch;pf;written;kirchlich-teologischer.fachtext;111
 kommen;no;xiv;oberdt;Mittelbayrisch;konj;written;kirchlich-teologischer.fachtext;111
 kommen;no;xv;oberdt;Mittelbayrisch;pf;written;Chronikalischer.und.Berichtstext;113
