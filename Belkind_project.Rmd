@@ -1,0 +1,316 @@
+---
+title: "Variation of Participle Forms for Perfective Verbs in Early New High German. Pilot study."
+author: "Alexandra Belkind"
+date: 'June 24, 2019'
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{
+    colorlinks = true,
+    urlcolor = {blue}}
+output:
+  pdf_document: default
+---
+**I. Research objectives and hypothesis**
+
+  In this study I will look at distribution of two variants of participle II forms in Early New High German (14th-17th century). In the Modern German participles II are formed with a circumfix 'ge-…-t' for weak verbs and with 'ge-' and the suffix '-en' besides Ablaut vowel change for strong verbs. There are also certain limitation of use of the prefix 'ge-', e.g. verbs with word-formative suffix '-ieren', verbs with inseparable unstressed prefixes ase.g. 'be-' and others.
+  In the earliest stages of German, however, it was not the case. In Old High German (750-1050 A.D.) prefix 'ga-' (corresponding to modern 'ge-') kept its resultative meaning and that’s why it was not obligatory in participles II. During Middle High (1050-1350 A.D.) and Early New High German (1350-1650 A.D.) periods the use of 'ge-' reached the modern stage. However, exactly in these periods rivaling forms are expected, especially for perfective verbs. The Middle High German Grammar of Hermann Paul provides a list of verbs which were often used without 'ge-', though not having unstressed prefixes or suffixes, which would have prohibited it. These particciples are as follows: *braht* ‘brought’, *funden* ‚found‘, *komen* ‚come‘, *worden* ‚become’, *troffen* ‘meeted’, *lazzen* ‘let’, *geben* ‘given’, *nomen* ‘taken’. All the verbs are perfective and strong, that explains there more conservative use and poor compatibility with (underlyingly) resultative 'ge-'.
+  At the preliminary stage of research I assumed  following factors to be important for the choice of prefixed av. non-prefixed form: 
+  1) Syntactic function. Participles are used as part of periphrastic verb forms of both Zustandspassiv and Vorgangspassiv (i.e. passive of state and passive of process), also for forms of perfect and conjunctive mood, and in attributive or adverbial position. 
+  2) Period. Early New High German is divided in a number of smaller periods, which differ from one another in many respects, and also grammatically. 
+  3) Dialect. Dialect variation is a very strong factor at all stages of the language. The todays region of spread of German is divided into two big areas – area of Low German dialects and that of High German dialects. The first one is in the North of Germany and builds one dialectal area with Dutch, that’s why it is traditionally not analyzed in studies of German. The other area covers region to the south from Benrath line and is divided to Central German dialects and Upper German dialects. The Central German dialects are divided into West Central German and East Central German, with a border between Hessian and Thuringian respectively. For my study I will adopt the discrimination among West and East Central German, and Upper German. From each area there are taken two dialect, which I also test as a separate factor. 
+  4) A genre of a text should be taken into account. For this variable a contrast between spoken and written language is relevant. However, in the available data there is no access to oral representations of Early New High German. This fact complicates analysis to a certain grade, but does not make it impossible. It is generally assumed that there is a hierarchy of genres, where some of them are pretty close to oral speech and others have higher grade of normalization, i.e. reflect more consistent written variety of language. I will follow the classification of Chr. D. Sapp (2014) and divide all genres into two values: written framework (prosaic literary text, chronicles, religious prose), oral framework (poetic texts, sermons, chancery documents, technical prose).
+  5) After the data were collected I also added a lexical factor, since two of the verbs - 'werden' and 'nehmen' - choose one form consistently and some others - e.g. 'kommen' - show a preference to a certain form.
+  
+  My initial hypothesis of this study is as follows: 1) Lexeme affects the preference of a (non-)prefixed form at least for some verbs. 2) Time period should play an important role in the choice of a form. In 14th century forms with ge- are used least often. Their number increases chronologically. 3) Dialect variation affects the use of prefix ge-. So far I can claim only that this factor is important, but have no data and no intuitions to specify which dialect prefer forms with ge- and which do not. 4) Syntactic function is the least important factors in the list. In passive forms the participles with ge- are used rarely, while ge- is more often present in perfect forms and even more often in attributive and adverbial use of the participles. 5) genre, i.e. modus of speech was initially expected to be an important factor. The hypothesis was that genres, which are close to oral speech, prefer participle forms without ge-, while strictly normalized genres tend to have participles to be formed with ge-.
+
+**II. Description of input data**
+
+  The dataset is based on the output of the Bonner Fruehneuhochdeutsch-Korpus. The corpus is not large, which leads to certain limitations, e.g. each period of each dialect is presented by only one text. As a consequence an interpretation of some features as ideosyncrasies cannot be excluded completely. Also the data are not balanced perfectly, since certain forms and verbs occur rarely in one text, than in another. Nevertheless, I assume that the data are enough for a pilot study.
+```{r 1.0}
+part <- read.csv("https://raw.githubusercontent.com/Alexandra-Belkind/Linguistic-Data-Analysis-Project/master/corpus_output_part_II.test.csv", header = TRUE)
+```
+  Here I provide a descriptive statistics of the dataset.
+
+*Dataset*
+
+The dataset consists of 461 examples. The textual examples are not provided in the working csv-file in {1.0}, but are presented in a dataset in the last section. Data collection followed a principle "verb & period & dialect = 5", i.e. I collected ca. 5 examples for each dialect in each of four periodes (see below). If the corpus contained less than 5 examples of a verb in a given dialect in a given period, I have took all present exaples. If the corpus contained  more than five examples, I ignored the rest of them. The only exception were cases, when there were more than five examples and the examples coming after the fifth contained forms in rare syntactic functions, as adverbial or attributive - these functions are underrepresented in the corpus and dataset, and it was crutial to collect them, to make their analysis possible.
+
+*Variables of interest*
+
+* `verb`: lexical items in modern orthography. The variable has ‘bringen’, 'finden', 'kommen', 'werden', 'treffen', 'lassen', ‘geben’, 'nehmen'.
+* `form`: presence or absence of the prefix 'ge-'. This is the dependent variable.
+* `century`: four periods from 14th  to 17th century.
+* `dialect_area`: a factor with levels `1` = West Central German, `2` = East Central German, `3` = Upper German
+* `dialect`: a factor with six levels. Here I group them by dialect areas: (1) `Ripuarisch`, `Hessisch`; (2) `Thueringisch`, `Obersaechsisch`; (3) `mittelbayrisch`, `schwaebisch`.
+* `synt_function`: a factor with levels `vor_pass` for passive of process, `zu_pass` for passive of state, `pf` for perfect and plusquamperfect, `aux` for auxiliary function of werden, `adv` for adverbial function, `adj` for attributive fuction.
+* `genre`: a factor with levels `oral` and `written`.
+* `textart` and `text_nr` provide technical information form the corpus, that helps to verify `genre`, `dialect`, `century`.
+
+
+*Descriptive Statistics*
+
+  The table in {1.1} shows absolute numbers of examples for each variable. The difference is unavoidable, since a smaller size of the Bonner corpus does not allow to have equal samples for each verb. However, the difference in number of forms with and without prefix is not huge, which makes this dataset appropriate for analysis. THe most radical gap in the data is the difference among syntactic structures: certain of them are dramatically  underrepresented, since they rarely occur in the langauge in general. Other, e.g. perfect is overrepresented in comparison with other functions. This is an expected but unavoidalbe situation. A higher number of "written" genres over "oral" ones is also expected and can be overcome with a larger corpus data, but for now it stays a problem for further research.
+```{r 1.1}
+summary(part)
+```
+
+  As the following table shows some verbs are under- and overrepresented in the dataset. The most important cases are 'treffen' with only 5 examples and 'werden' with 103, but also 'lassen' with 29 examples is somewhat underrepresented in the data. 
+```{r 1.2}
+library(tidyverse)
+desc_verbs <- part %>% count(verb)
+desc_verbs
+```
+
+In the second table we see, that some verbs show clear preference to a prefixed or non-prefixed form, which complicates the analysis to a certain grade. As I will show later, lexical facor is the most important for the choice of a form, so some verbs will be excluded from the analysis to test other factors more carefully.
+
+```{r 1.3}
+desc_forms <- part %>% group_by(verb) %>% count(form)
+desc_forms
+```
+
+  Another factor, that should be taken into account is the no-balanced distribution of syntactic functions. That is also unavoidable, because adverbial and attributive usages are less common than forms of e.g. perfect or passive:
+```{r 1.4}
+desc_sf <- part %>% count(synt_function)
+desc_sf
+```
+
+Dialects and time dictribution are more or less balanced due to the data collection method:
+
+```{r 1.5}
+desc_dial <- part %>% group_by(dialect_area) %>% count(dialect)
+desc_dial
+```
+```{r 1.6}
+desc_time <- part %>% count(century)
+desc_time
+```
+
+The distribution of prefixed vs. no-prefixed forms for each value of studied variables is show in the following plots:
+
+```{r 1.7}
+desc_forms %>%
+  ggplot(aes(verb, n, fill = form)) +
+  geom_col() +
+  labs(title = "1. Distribution of ge- vs lexemes",
+       x = "Lexemes",
+       y = "Number of forms")
+
+```
+
+```{r 1.8}
+data(part)
+part$form <- as.factor(part$form)
+ggplot(data=part, aes(century))+
+  geom_bar(aes(fill=as.factor(form)), position="fill")+
+  labs(title = "2. Distribution of ge- vs Time",
+       x = "Century",
+       y = "Percentage of forms")
+```
+
+```{r 1.9}
+data(part)
+part$form <- as.factor(part$form)
+ggplot(data=part, aes(dialect))+
+  geom_bar(aes(fill=as.factor(form)), position="fill")+
+  labs(title = "3. Distribution of ge- vs Dialect",
+       x = "Dialects",
+       y = "Percentage of forms")
+```
+
+```{r 1.10}
+data(part)
+part$form <- as.factor(part$form)
+ggplot(data=part, aes(synt_function))+
+  geom_bar(aes(fill=as.factor(form)), position="fill")+
+  labs(title = "4. Distribution of ge- vs Function",
+       x = "Function",
+       y = "Percentage of forms")
+
+```
+
+```{r 1.11}
+data(part)
+part$form <- as.factor(part$form)
+ggplot(data=part, aes(genre))+
+  geom_bar(aes(fill=as.factor(form)), position="fill")+
+  labs(title = "5. Distribution of ge- vs Modus of speech",
+       x = "oral or written",
+       y = "Number of forms")
+
+```
+
+As it is shown in the presented graphs, the distribution of forms from some values of some variables is almost 50%. For other variables or values, it is less more segnificant. However, at the present stage it is hard to formulate a hypothesis about important and non-important factors for a form choice. However, I should mention, that genre distribution of forms was highly unexpected. In the annotation I followed quite straightforwardly classification of Sapp (2014) and genre definition from corpus in `textart`. These, however, should be checked more precisely in the further research. As for other variables, a higher grade of prefixed forms in both types of passive in comparison with other functions, was rather unexpected in the initial hypothesis and generally this factor seems to be more important than I expected.
+
+
+**III. Methods of analysis**
+
+  Since, almost all variables are not binary and not numeric (so we cannot use e.g. mean values) I will use a logistic regression model. The logistic regression model with multiple factors and not only individual factors should be taken into account, since interaction of different factors can be highly significant. Logistic regression allows to check dependency of the `form` from individual variables and from multiple ones, to define which variables have the most influence on the dependent variable and which are superfluous. Checking AIC allow to choose the optimal model with optimal number of factors.
+  My initial  intention was to check the hypotheses on a smaller control group of e.g. 5 contexts for each variable and then extend to the whole sample. However, for this dataset it is not posiible, since some values are underrepresented.
+  Also t-test or Fisher's test could be used to test statistical significance of individaul variable, but in that case we need to have binary values, i.e. to check each value of each variable independently. This would be rather non-economical and complicated. So I will run the same tests with logistic regression and check models with different combiations of factors.
+  
+  
+**IV. Results of statistical analysis and interpretation**
+
+  In this section I will present the result of statistical analysis with logistic regression model. The first part of the Section provides statistical information, and the second part - results of the analysis reformulated in linguistic terms. Code can be found in Section V. 
+
+*Preliminary remarks to dataset evaluation*
+
+  From the plot 1 in the second section we have seen, that two verbs 'werden' and 'nehmen' always choose one form (non-prefixed and prefixed one respectively). As soon as for this verbs choiche of a form is 100% lexically determined, I will exclude them from my dataset and concentrate on those verbs, which have some variation. I also exclude the verb 'treffen', since it is dramatically underrepresented in my data and is not well combinable with other variables.
+
+*Logistic regression model: results*
+
+  At the first step of analysis a statistical hypothesis was formulated. In general term it is formulated as:
+H0: form does not depend on *tested value*
+H1: form does depend on *tested value*
+
+  At the second step I ran logistic regression model with each of individual variables. The results are presented in the table {2.1}.
+  As we see, the three most important factors are lexeme, period and syntactic function, then come dialect, genre and dialect area. It is worth to note, that the most important factor, the lexical one, is also far more important than others: AIC for `verb` is smaller by almost 100 points (85.38), while the difference between `century` and `dial_area` is 28.2 points.
+
+```{r 2.1}
+res_t <- read.csv("https://raw.githubusercontent.com/Alexandra-Belkind/Linguistic-Data-Analysis-Project/master/project_results.csv", header = TRUE)
+res_t %>% slice(1:6)
+```
+
+However, checking significance of individual factors is not enough.So I also ran some models with multiple factors. Their results are presented in taple {2.2}
+```{r 2.2}
+res_t %>% slice(8:11)
+```
+In the table we see, that using all possible combinations of factors rapidly increases AIC and spoiles the model. One possible reason for this may be insufficiency of the data: about a half of combined factors have N/A value, i.e. no examples to analyze. If we try to avoid this and delete this intersections from the set of factors, the model `century*dialect*genre+verb+synt_function` works much better: AIC becomes 235.61, which is lower than for individual lexical factor.
+  A model with added and no combined factors turns out to work even better: AIC is 234.61 and there are more significant values. Two verbs (*kommen* and *lassen*) and two time pwriods (the *16th* anf *17th* century) are highly significant for a choice of a form, three of six dialects (*Thurinagian*, *Middle Bavarian* and *Ripuarian*) turn out to be significant to different grades, as well as one other verb (*geben*) is somewhat significant.
+  However, a model with only three variables, which have significant values works worse: AIC is 237.18.
+  
+```{r 2.3}
+res_t %>% slice(7:7)
+```
+  The model with stepwise analysis of the factors works better than all others: AIC is 233.59. This result does not differ much from the simple addition of the factors (AIC is 234.61), but stepwise analysis leads to a slight improvement of the result. Importantly, all the significant values are kept, though with different p-values and different grades of significancy.
+  
+  Logistic regression models have shown, that the best model is the one with all factors, even the ones with small statistical significance. The model with added factors works better than the one with combined factors, because of insufficiency of this dataset. This weakness will be corrected in the further research. For now it can be stated, that all analysed factors should be used in a statistically relevant model of the use of 'ge-' with participles II of perfective verbs.
+  
+  *Linguistic results*
+  
+  The analysis in the previous subsection has shown, that all factors we assumed to be relevant for the choice of the form should be indeed taken into account. However, some of them seem to play a crucial role and others have a smaller effect. The most important factor is the lexeme. This factor was not in my initial set of factors and was added after the descriptive statistics was done. Even after the verbs 'werden' and 'nehmen', which alway are used without and with ge- respectively, werde deleted from the dataset, the lexical factor was way more important than all other individual factors. Factor of time is also relevant, in the 16th and 17th century prefixed forms become more favored. This correspond to my expectations, since in the Modern Standard German all these verbs are used with prefix, except 'werden' in auxiliary function. Syntactic function and dialect affect the form less than expected. My initial hypothesis was, that dialect variation would be higher and more important, than syntactic function. This is borne out to a certain grade, since 'Thuringian', 'Middle Bavarian' and 'Ripuarian' do somewhat favor one form before another. Modus of speech (oral vs. written) seem to affect the use of prefix only when added to all previous factors, which also contradict my initial hypothesis. However, as I already mentioned before, the classification I adopted for this study seems to be not always reliable and has to be checked in the further research.
+
+  
+**Referencies**
+  Bonner Fruehneuhochdeutsch-Korpus – Das Bonner Fruhneuhochdeutsch-Korpus, Korpora.org, [link] (http://www.korpora.org/FnhdC/).
+  Heibig G. & J. Buscha. Deutsche Grammatik. Ein Handbuch fur den Auslanderunterricht. 17. Aufl. Leipzig u.a., 1996. S. 111-112
+  Paul, H. et al. (2007). Mittelhochdeutsche Grammatik. 25. Auflage, neu bearbeitet von T. Klein, H.-J. Solms und K.-P. Wegera. Mit einer Syntax von I. Schrobler, neubearbeitet und erweitert von H.-P Prell. Niemeyer, Tubingen [= Sammlung kurzer Grammatiken germanischer Dialekte; A, 2].
+  Sapp, Christopher D. (2014) Extraposition in Middle and Early New High German. In: Journal of Comparative Germanic Linguistics 17, 129-156.
+
+
+**V. R code**
+
+*Statistical analysis of the data*
+
+  In this section I will run logistic regression for different models. Except code the section contains also some comments to the code or output.
+
+  From the plot in the second section we have seen, that two verbs 'werden' and 'nehmen' always choose one form (non-prefixed and prefixed one respectively). As soon as for this verbs choiche of a form is 100% lexically determined, I will exclude them from my dataset and concentrate on those verbs, which have some variation. I also exclude the verb 'treffen', since it is dramaticlly underrepresented in my data and is not well combinable with other variables.  I have also deleted the last two columnes with variables `textart` and `text_nr`. These are technical annotations from the Bonner corpus, which I have doubled in my data. 
+  
+  
+
+```{r 3.1}
+part2 <- part %>%
+  filter(!grepl('werden|nehmen', verb)) %>%
+  filter(!grepl('treffen', verb))
+part2 <- part2 %>% select(verb:genre)
+summary(part2)
+```
+
+Now I will check significance of individual factors. 
+H0 = correlation between form and factor x = 0, i.e. form does not depend on this factor
+H1 = correlation between form and factor x is not 0
+
+*Correlation with lexemes*
+```{r 3.2}
+part.verb.glm <- glm(form ~ verb, family = binomial, data = part2)
+part.verb.glm
+summary(part.verb.glm)
+```
+Three values are significant: 'kommen', 'lassen', 'bringen'
+
+*Correlation with time*
+```{r 3.3}
+part.time.glm <- glm(form ~ century, family = binomial, data = part2)
+part.time.glm
+summary(part.time.glm)
+```
+the fourth period, the 17th century, is significant.
+
+*Correlation with dialect area*
+```{r 3.4}
+part.area.glm <- glm(form ~ dialect_area, family = binomial, data = part2)
+part.area.glm
+summary(part.area.glm)
+```
+
+*Correlation with dialects*
+```{r 3.5}
+part.dialect.glm <- glm(form ~ dialect, family = binomial, data = part2)
+part.dialect.glm
+summary(part.dialect.glm)
+```
+
+*Correlation with syntactic function*
+```{r 3.6}
+part.function.glm <- glm(form ~ synt_function, family = binomial, data = part2)
+part.function.glm
+summary(part.function.glm)
+```
+
+*Correlation with genre*
+```{r 3.7}
+part.genre.glm <- glm(form ~ genre, family = binomial, data = part2)
+part.genre.glm
+summary(part.genre.glm)
+```
+
+
+*Stepwise selection of variables*
+
+For this analysis I will go from the most important factors (according to AIC) to the least impartant ones. I also will exclude `dialect_area`, since it is less important than `dialect` and provides the same kind of information.
+```{r 3.8}
+part.all.glm <- glm(form ~ 1, data = part2, family = binomial)
+part.step.glm <- step(part.all.glm, direction = "forward", scope = ~ verb + century + synt_function + dialect + genre)
+summary(part.step.glm)
+```
+Many factors are significant in this model. First of all `dialect`, `time` and `verb`.
+
+Now we can add combined factors to the analysis.
+*Interacting factors*
+
+```{r 3.9}
+part.mult.glm <- glm(form ~ verb*century*synt_function*dialect*genre, family = binomial, data = part2)
+summary(part.mult.glm)
+```
+
+If we multiply all factors, the model becomes highly inefficient (AIC 1970). That can be due two reasons: too many factors or high number of N/A values, where e.g. adverbial function is not attested in all periodes and dialects. So we have to exclude interactions for those factors, which have little data to test (`verb`, `synt_function`) 
+
+*Interacting factors: updated*
+```{r 3.10}
+part.mult2.glm <- glm(form ~ century*dialect*genre+verb+synt_function, family = binomial, data = part2)
+summary(part.mult2.glm)
+```
+
+It becomes much better, but still not as effective as spetwise analysis. So the most efficient model is with multiple fcators, but without their interaction.
+
+*Multiple factors without interaction*
+```{r 3.11}
+part.sum.glm <- glm(form ~ verb+century+synt_function+dialect+genre, family = binomial, data = part2)
+summary(part.sum.glm)
+```
+
+*Multiple factors 2*
+If we delete all factors, which are insignificant according to the previous model, we get:
+```{r 3.12}
+part.sum2.glm <- glm(form ~ verb+century+dialect, family = binomial, data = part2)
+summary(part.sum2.glm)
+```
+The AIC of the model "Multiple factors without interaction" is the least from all models so far (238.09), so it seems to be the best one.
+However, note the sepward analysis: (AIC = 233.59) 
+
+
+
+**Links**
+
+[link to the working dataset] (https://raw.githubusercontent.com/Alexandra-Belkind/Linguistic-Data-Analysis-Project/master/corpus_output_part_II.test.csv)
+[link to the annotated dataset with corpus output] (https://github.com/Alexandra-Belkind/Linguistic-Data-Analysis-Project/blob/master/belkind_annotated_corpus-output.tsv)
